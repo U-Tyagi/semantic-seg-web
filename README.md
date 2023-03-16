@@ -35,7 +35,7 @@ Labelled data is generated using satellite imagery for providing it to model wit
 While traditional UNET takes skip connections directly as input, UNET-Attention or Attention aware UNET applies attention or ‘weights based on importance’ over skip connections.
 The skip connections are later on concatenated with output layers at each depth in decoder path.
 
-![UNET - Attention](//assets/unet-atn.png "Model-UNET-Attention")
+![UNET - Attention](/assets/unet-atn.png "Model-UNET-Attention")
 
 ### Results & Discussion
 
@@ -50,7 +50,7 @@ Location: Bibipur
 Model: UNET (Depth=5, Filters=32)   
 Jaccard Coef (Val) in % = 76.11%
 
-![Unet-Results](//assets/pred_unet.png "UNET-Prediction")
+![Unet-Results](/assets/pred_unet.png "UNET-Prediction")
 
 #### Results-Unet-Attention
 
@@ -58,7 +58,7 @@ Location: Bibipur
 Model: UNET-Attention (Depth=4, Filters=32)   
 Jaccard Coef (Val) in % = 76.61%
 
-![Unet-Atn-Results](//assets/pred_unet-atn.png "UNET-ATN-Prediction")
+![Unet-Atn-Results](/assets/pred_unet-atn.png "UNET-ATN-Prediction")
 
 ### Web User Interface
 

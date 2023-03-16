@@ -28,7 +28,7 @@ First path is the contraction path (also called as the encoder) which is used to
 The second path is the symmetric expanding path (also called as the decoder) which is used to provide precise localization using transposed convolutions.  It is an end-to-end fully convolutional network (FCN). 
 Labelled data is generated using satellite imagery for providing it to model with images for training.
 
-![UNET](//assets/unet.png "Model-UNET")
+![UNET](/assets/unet.png "Model-UNET")
 
 #### UNET - Attention
 

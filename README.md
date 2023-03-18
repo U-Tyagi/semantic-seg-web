@@ -30,6 +30,12 @@ Labelled data is generated using satellite imagery for providing it to model wit
 
 ![UNET](/assets/unet.png "Model-UNET")
 
+#### UNET - Atrous Spatial Pyramid Pooling
+
+The Atrous Spatial Pyramid Pooling os ASPP layer is applied at bottleneck layer i.e. between encoder and decoder part of the UNET. This layer captures multi-scale features by applying multiple parallel filters at different dilation rate, thus increasing effective Field of View (EFoV). These filters are later passed to decoder path after concatenating and convoluting.
+
+![UNET](/assets/unet-aspp.png "Model-UNET")
+
 #### UNET - Attention
 
 While traditional UNET takes skip connections directly as input, UNET-Attention or Attention aware UNET applies attention or ‘weights based on importance’ over skip connections.
@@ -51,6 +57,14 @@ Model: UNET (Depth=5, Filters=32)
 Jaccard Coef (Val) in % = 76.11%
 
 ![Unet-Results](/assets/pred_unet.png "UNET-Prediction")
+
+#### Results-UNET - Atrous Spatial Pyramid Pooling
+
+Location: Bibipur  
+Model: UNET-ASPP (Depth=4, Filters=32)   
+Jaccard Coef (Val) in % = 73.54%
+
+![Unet-Atn-Results](/assets/pred_unet_aspp.png "UNET-ATN-Prediction")
 
 #### Results-Unet-Attention
 

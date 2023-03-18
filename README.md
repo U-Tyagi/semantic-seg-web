@@ -103,7 +103,7 @@ Results visualization
 - Src- Source Code
 - in - Uploaded files to predict
 - out - predcited image
-- models - models directories that contains learned weights for model. Models can be accessed through Google Drive Link. 
+- models - models directories that contains learned weights for model. Models can be accessed through [Google Drive Link.](https://drive.google.com/drive/folders/1hAENCJYuY7ljbuBt4fDqqEGp463OLl5z?usp=sharing) 
 
 ## Contributing
 

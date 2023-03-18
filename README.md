@@ -64,7 +64,7 @@ Location: Bibipur
 Model: UNET-ASPP (Depth=4, Filters=32)   
 Jaccard Coef (Val) in % = 73.54%
 
-![Unet-Atn-Results](/assets/pred_unet_aspp.png "UNET-ATN-Prediction")
+![Unet-ASPP-Results](/assets/pred_unet_aspp.png "UNET-ATN-Prediction")
 
 #### Results-Unet-Attention
 
@@ -90,6 +90,9 @@ Prediction
 Selection of Trained Models with training accuracy.
 Facility to upload Dataset for on-the-fly prediction.
 Results visualization
+
+![Training](/assets/s1.png "Training")
+![Prediction](/assets/s2.png "Prediction")
 
 ## Contributing
 

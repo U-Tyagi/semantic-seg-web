@@ -100,10 +100,10 @@ Results visualization
 
 ## Directory Structure
 
-Src- Source Code
-in - Uploaded files to predict
-out - predcited image
-models - models directories that contains learned weights for model. Models can be accessed through Google Drive Link. 
+- Src- Source Code
+- in - Uploaded files to predict
+- out - predcited image
+- models - models directories that contains learned weights for model. Models can be accessed through Google Drive Link. 
 
 ## Contributing
 

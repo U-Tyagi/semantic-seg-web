@@ -91,8 +91,8 @@ Selection of Trained Models with training accuracy.
 Facility to upload Dataset for on-the-fly prediction.
 Results visualization
 
-![Training](/assets/s1.png "Training")
-![Prediction](/assets/s2.png "Prediction")
+![Training](/assets/st1.png "Training")
+![Prediction](/assets/st2.png "Prediction")
 
 ## Contributing
 

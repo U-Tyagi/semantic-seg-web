@@ -1,5 +1,5 @@
 # semantic-seg-web
-Semantic Segmentation using architecutres like UNET and UNET Attention along with web interface. It trains model based on pre-supplied / user-supplied, training data and provide web UI to tune the hyperparameters.
+Semantic Segmentation using architectures like UNET and UNET Attention along with web interface. It trains model based on pre-supplied / user-supplied, training data and provide web UI to tune the hyperparameters.
 Semantic Segmentation using architectures like UNET and UNET Attention along with web interface. Models have been trained and are provided for quick prediction. In addition to provided models, it facilitates training of new models based on pre-supplied / user-supplied, training data and provide web UI to tune the hyper-parameters. Web deployment is crucial now a days to complete MLOps lifecycle, hence this repo attempts to provide a web interface to control training and evaluate already trained models with prediction on uploaded unknown image.
 
 ## Methdology

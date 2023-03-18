@@ -2,6 +2,10 @@
 Semantic Segmentation using architecutres like UNET and UNET Attention along with web interface. It trains model based on pre-supplied / user-supplied, training data and provide web UI to tune the hyperparameters.
 Semantic Segmentation using architectures like UNET and UNET Attention along with web interface. Models have been trained and are provided for quick prediction. In addition to provided models, it facilitates training of new models based on pre-supplied / user-supplied, training data and provide web UI to tune the hyper-parameters. Web deployment is crucial now a days to complete MLOps lifecycle, hence this repo attempts to provide a web interface to control training and evaluate already trained models with prediction on uploaded unknown image.
 
+## Methdology
+
+Access PDF File GeospatialHackathon-SOI.pdf
+
 ## Installation
 
 Download and extract zip in Python 3.9 environment with installed dependencies. Major dependencies are:
@@ -93,6 +97,13 @@ Results visualization
 
 ![Training](/assets/st1.png "Training")
 ![Prediction](/assets/st2.png "Prediction")
+
+## Directory Structure
+
+Src- Source Code
+in - Uploaded files to predict
+out - predcited image
+models - models directories that contains learned weights for model. Models can be accessed through Google Drive Link. 
 
 ## Contributing
 

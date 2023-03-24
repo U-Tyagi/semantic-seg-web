@@ -4,7 +4,18 @@ Semantic Segmentation using architectures like UNET and UNET Attention along wit
 
 ## Methdology
 
-Access PDF File GeospatialHackathon-SOI.pdf
+Access PDF File [Here.](./GeospatialHackathon-SOI.pdf)
+
+## Directory Structure of Project
+
+- Src- Source Code
+  - in - Uploaded files to predict
+  - out - predcited image
+  - models - models directories that contains learned weights for model. Models can be accessed through [Google Drive Link.](https://drive.google.com/drive/folders/1hAENCJYuY7ljbuBt4fDqqEGp463OLl5z?usp=sharing) 
+
+## Demo Video of Web Interface (Only 5 Epochs for demonstration)
+
+[Demo Video](https://drive.google.com/file/d/1iSdrlzFipu8y1SvMDbTjVRp_S-4oz5l_/view?usp=sharing)
 
 ## Installation
 
@@ -97,17 +108,6 @@ Results visualization
 
 ![Training](/assets/st1.png "Training")
 ![Prediction](/assets/st2.png "Prediction")
-
-## Directory Structure of Project
-
-- Src- Source Code
-  - in - Uploaded files to predict
-  - out - predcited image
-  - models - models directories that contains learned weights for model. Models can be accessed through [Google Drive Link.](https://drive.google.com/drive/folders/1hAENCJYuY7ljbuBt4fDqqEGp463OLl5z?usp=sharing) 
-
-## Demo Video of Web Interface (Only 5 Epochs for demonstration)
-
-[Demo Video](https://drive.google.com/file/d/1iSdrlzFipu8y1SvMDbTjVRp_S-4oz5l_/view?usp=sharing)
 
 ## Contributing
 

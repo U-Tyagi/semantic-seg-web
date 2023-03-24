@@ -1,10 +1,9 @@
 # semantic-seg-web
-Semantic Segmentation using architectures like UNET and UNET Attention along with web interface. It trains model based on pre-supplied / user-supplied, training data and provide web UI to tune the hyperparameters.
-Semantic Segmentation using architectures like UNET and UNET Attention along with web interface. Models have been trained and are provided for quick prediction. In addition to provided models, it facilitates training of new models based on pre-supplied / user-supplied, training data and provide web UI to tune the hyper-parameters. Web deployment is crucial now a days to complete MLOps lifecycle, hence this repo attempts to provide a web interface to control training and evaluate already trained models with prediction on uploaded unknown image.
+Semantic Segmentation using architectures like UNET, UNET Attention and UNET ASPP (Atrous Spatial Pyramid Pooling) along with web interface. Models have been trained and are provided for quick prediction. In addition to provided models, it facilitates training of new models based on pre-supplied / user-supplied, training data and provide web UI to tune the hyper-parameters. Web deployment is crucial now a days to complete MLOps lifecycle, hence this repo attempts to provide a web interface to control training and evaluate already trained models with prediction on uploaded unknown image.
 
 ## Methodology
 
-Access PDF File [Here.](./GeospatialHackathon-SOI.pdf)
+Access PDF File in main repository or [Here.](./GeospatialHackathon-SOI.pdf) 
 
 ## Directory Structure of Project
 
@@ -94,7 +93,7 @@ Jaccard Coef (Val) in % = 76.61%
 Customizable & Data independent deployment strategy.
 Training
 Data Preprocessing
-Automatic Data Normalization
+Automatic Data Normalizationatrous spatial pyramid pooling
 Augmentation
 Image tiling
 Random data splitting in train & validation sets.
